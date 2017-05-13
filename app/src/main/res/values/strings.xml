@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GitCITY</string>
+
+    <string name="repo_share">Share</string>
+    <string name="repo_watch">Watch</string>
+
+    <string name="gist_filename">Filename</string>
+    <string name="gist_description">Description</string>
+    <string name="gist_ispublic">Is public ?</string>
+    <string name="gist_content">Content</string>
+    <string name="gist_submit">Submit</string>
+    <string name="profile_repos">Repos</string>
+    <string name="profile_orgs">Orgs</string>
+    <string name="gist_load">Loading...</string>
+    <string name="repo_description">Description :</string>
+    <string name="repo_fullname">Fullname :</string>
+    <string name="repo_name">Name :</string>
+    <string name="repo_login">Owner :</string>
+    <string name="repo_language">Language :</string>
+    <string name="repo_created">Created at :</string>
+    <string name="repo_updated">Updated at :</string>
+    <string name="repo_pushed">Pushed at :</string>
+    <string name="repo_watchers">Watchers :</string>
+    <string name="repo_forks">Forks :</string>
+    <string name="profile_login">Login :</string>
+    <string name="profile_name">Name :</string>
+    <string name="profile_email">Email :</string>
+    <string name="profile_bio">Bio :</string>
+    <string name="profile_company">Company :</string>
+    <string name="profile_location">Location :</string>
+    <string name="profile_created">Created at :</string>
+    <string name="profile_updated">Updated at :</string>
+    <string name="profile_public_repos">Public repos :</string>
+    <string name="profile_public_gists">Public gists :</string>
+    <string name="profile_followers">Followers :</string>
+    <string name="profile_following">Following :</string>
+</resources>

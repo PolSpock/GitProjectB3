@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/profileAvatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginStart="5dp"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/profileLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_login"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/profileName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_name"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/profileEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_email" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/profileBio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_bio"
+
+            />
+
+        <TextView
+            android:id="@+id/profileCompany"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_company" />
+
+        <TextView
+            android:id="@+id/profileLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_location" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/profileCreated"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_created" />
+
+
+        <TextView
+            android:id="@+id/profileUpdated"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_updated"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/profilePublicRepos"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_public_repos"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/profilePublicGists"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_public_gists"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/profileFollowers"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_followers"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/profileFollowing"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_following"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/profileListRepos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/profile_repos" />
+
+        <Button
+            android:id="@+id/profileListOrgz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/profile_orgs" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
